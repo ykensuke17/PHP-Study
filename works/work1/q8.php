@@ -5,3 +5,17 @@ $num = 0;
 
 // TODO: ここにコードを追記
 echo $num;
+echo "\n";
+
+if ($num < 0) {
+    echo "負の数です\n";
+}
+
+if ($num == 0) {
+    echo "ゼロです\n";
+}
+
+
+if ($num > 0) {
+    echo "正の数です\n";
+}
