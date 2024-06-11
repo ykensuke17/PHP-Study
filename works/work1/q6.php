@@ -6,4 +6,15 @@ $num1 = 10;
 $num2 = 10;
 
 // TODO: ここにコードを追記
-echo $num1, $num2;
+echo $num1;
+echo "\n";
+echo $num2;
+echo "\n";
+
+if ($num1 == $num2) {
+    echo "等しいです\n";
+}
+
+if ($num1 > $num2 || $num1 < $num2) {
+    echo "等しくありません\n";
+}
