@@ -6,3 +6,16 @@ $num = 10;
 
 // TODO: ここにコードを追記
 echo $num;
+echo "\n";
+
+if ($num > 10) {
+    echo "10より大きいです\n";
+}
+
+if ($num < 10) {
+    echo "10より小さいです\n";
+}
+
+if ($num == 10) {
+    echo "10です";
+}
