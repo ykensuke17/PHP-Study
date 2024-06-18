@@ -10,6 +10,6 @@ $var1 = $num % 2;
 
 if ($var1 == 0) {
     echo "偶数です\n";
-} elseif ($var1 > 0) {
+} elseif ($var1 == 1) {
     echo "奇数です\n";
 }
