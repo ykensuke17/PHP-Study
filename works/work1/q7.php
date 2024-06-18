@@ -9,8 +9,6 @@ echo "\n";
 
 if ($num >= 5 && $num <= 15) {
     echo "範囲内です\n";
-}
-
-if ($num < 5 || $num > 15) {
+} elseif ($num < 5 || $num > 15) {
     echo "範囲外です\n";
 }
