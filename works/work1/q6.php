@@ -13,8 +13,6 @@ echo "\n";
 
 if ($num1 == $num2) {
     echo "等しいです\n";
-}
-
-if ($num1 > $num2 || $num1 < $num2) {
+} elseif ($num1 > $num2 || $num1 < $num2) {
     echo "等しくありません\n";
 }
