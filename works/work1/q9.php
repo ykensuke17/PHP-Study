@@ -9,8 +9,6 @@ echo "\n";
 
 if ($num > -10 && $num < 10) {
     echo "1桁の数です\n";
-}
-
-if ($num <= -10 || $num >= 10) {
+} elseif ($num <= -10 || $num >= 10) {
     echo "2桁以上の数です\n";
 }
