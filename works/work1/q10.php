@@ -10,12 +10,8 @@ echo "\n";
 
 if ($num == 0) {
     echo "ゼロです\n";
-}
-
-if ($num < 0) {
+} elseif ($num < 0) {
     echo "負の数です\n";
-}
-
-if ($num > 0) {
+} else {
     echo "正の数です\n";
 }
