@@ -19,3 +19,11 @@ if ($num == 0) {
 if ($num > 0) {
     echo "正の数です\n";
 }
+
+if ($num < 0) {
+    echo "負の数です\n";
+} elseif ($num == 0) {
+    echo "ゼロです\n";
+} else {
+    echo "正の数です\n";
+}
