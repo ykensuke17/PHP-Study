@@ -8,8 +8,6 @@ echo "\n";
 
 if ($num >= 100) {
     echo "大きな数です\n";
-}
-
-if ($num < 100) {
+} elseif ($num < 100) {
     echo "小さな数です\n";
 }
