@@ -11,8 +11,6 @@ $var1 = $num % 3;
 
 if ($var1 == 0) {
     echo "3の倍数です\n";
-}
-
-if ($var1 > 0 || $var1 < 0) {
+} elseif ($var1 > 0 || $var1 < 0) {
     echo "3の倍数ではありません\n";
 }
