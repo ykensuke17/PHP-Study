@@ -3,3 +3,4 @@
 require "function.php";
 
 //TODO: ここから下で各関数を実行
+readBooksData();

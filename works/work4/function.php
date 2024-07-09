@@ -15,7 +15,8 @@ function readBooksData()
         while (($data = fgetcsv($file, 1000, ',')) !== FALSE) {
             $book = array();
             // TODO:ここでループを使ってデータを連想配列に変換
-            $books[] = $book;
+
+            // print_r($data); <- これで$dataの中身を確認できる。
         }
 
         fclose($file);
@@ -41,9 +42,9 @@ function findBooks($books, $str)
 function displayBooks($books)
 {
     foreach ($books as $book) {
-        echo "タイトル: " . $book["タイトル"] . "\n";
-        echo "著者: " . $book["著者"] . "\n";
-        echo "値段: " . $book["値段"] . "円\n";
+        echo "title: " . $book["title"] . "\n";
+        echo "author: " . $book["auther"] . "\n";
+        echo "price: " . $book["price"] . "円\n";
         echo "------------------\n";
     }
 }
