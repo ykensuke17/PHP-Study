@@ -11,8 +11,13 @@ $mainWeapon->echoStatus();
 $subWeapon->echoStatus();
 
 
-$mainWeapon->fire();
-$subWeapon->fire();
+$mainWeapon->setExtendedMagazine(10);
+$mainWeapon->echoStatus();
+
+$mainWeapon->relaod();
+$mainWeapon->echoStatus();
+
+$mainWeapon->unsetExtendedMagazine();
 
 $mainWeapon->echoStatus();
 $subWeapon->echoStatus();
