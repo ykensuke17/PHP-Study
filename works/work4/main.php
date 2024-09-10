@@ -3,6 +3,8 @@
 require "function.php";
 
 //TODO: ここから下で各関数を実行
-print_r(readBooksData());
-calcTax($books);
+
+$books = readBooksData();
+
+$books = calcTax($books);
 print_r($books);

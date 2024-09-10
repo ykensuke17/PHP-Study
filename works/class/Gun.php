@@ -38,6 +38,7 @@ class Gun
         // 問題2
         if ($this->currentMagazine == $this->maxMagazine + $this->extendedMagazine) {
             echo "リロードの必要はありません\n";
+            return;
         } else {
             $this->currentMagazine = $this->maxMagazine + $this->extendedMagazine;
         }
@@ -49,6 +50,7 @@ class Gun
         // 問題3
         if ($this->currentMagazine == 0) {
             echo "リロードしてください。\n";
+            return;
         } else {
             $this->currentMagazine = $this->currentMagazine - 1;
             echo "$this->name を発砲しました。残弾： $this->currentMagazine 発 \n";
@@ -64,6 +66,7 @@ class Gun
         // 問題4
         if ($x <= 0) {
             echo "引数が不正です\n";
+            return;
         } else {
             $this->extendedMagazine = $x;
         }
@@ -75,6 +78,7 @@ class Gun
         // 問題4
         if ($this->extendedMagazine = 0) {
             echo "拡張マガジンは装着されていません\n";
+            return;
         }
         $this->extendedMagazine = 0;
         if ($this->currentMagazine > $this->maxMagazine + $this->extendedMagazine) {

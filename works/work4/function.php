@@ -36,10 +36,10 @@ function readBooksData()
 // 関数2
 function calcTax($books)
 {
-    for ($i=0;$i<=count($books);$i++;) {
-$books["price"]=$books["price"]*1.1;
+    for ($i = 0; $i < count($books); $i++) {
+        $books[$i]["price"] = $books[$i]["price"] * 1.1;
     }
-   
+
     return $books;
 }
 
